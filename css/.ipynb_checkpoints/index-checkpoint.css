@@ -1,27 +1,102 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:merriweather;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #000108;
+    color: #ffffff;
+    overflow-x: clip;
+    overflow-y: auto;
 }
 
-header, footer {
-    background-color: #222;
+
+#header {
+    background-color: #140202c7;
     color: #fff;
     padding: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: monospace;
+    position: relative;
+    z-index: 1;
+    margin: 0;
 }
 
-main {
-    padding: 2rem;
+.header2 {
+    font-family: Anta, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
-nav a {
-    color: #fff;
-    margin-right: 1rem;
-    text-decoration: none;
+p {
+    color: #ffffff;
+    margin: 1rem;
+    font-family: forum;
 }
 
-nav a:hover {
+ul {
+    color: #ffffff;
+    margin: 1rem;
+    font-family: forum;
+    list-style-type: disc;
+    padding-left: 1rem;
+    line-height: 1.6;
+}
+
+a {
+    color: #6a99ff;
     text-decoration: underline;
+    text-shadow: 0 0 0.2rem #505050;
+    font-family: forum;
+}
+
+a:hover {
+    transition: color 0.3s ease-out, text-shadow 0.3s ease-in-out;
+    color: #ff0000;
+    text-shadow: 0 0 0.2rem #ff0000;
+}
+
+#house {
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-family: forum;
+}
+
+#header2 {
+    text-align: Left;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f7f7f7;
+    text-decoration-style: solid;
+    text-decoration-color: #ff0000;
+    text-decoration-thickness: 0.2rem;
+    background: linear-gradient(to right, #183f01, #b3c000);
+}
+
+#progress {
+    text-align: Left;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f7f7f7;
+    background: linear-gradient(to right, #020350, #1644a8);
+}
+
+#footer {
+    background:   
+    linear-gradient(217deg, rgba(97, 8, 8, 0.8), transparent 40.71%),
+    linear-gradient(127deg, rgba(16, 80, 139, 0.8), transparent 41.71%),
+    linear-gradient(336deg, rgba(240, 238, 106, 0.8), transparent 40.71%);
+    color: #ffffff;
+    font-weight: bold; 
+    text-align: center;
+    padding: 0.25rem;
+    font-size: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-text {
+    font-family: Times New Roman, sans-serif;
 }
