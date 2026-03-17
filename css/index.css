@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    transition: color 0.3s ease-out, text-shadow 0.3s ease-in-out;
+    /* Removed the transition becuase it looks better in my opinion */
     color: #ff0000;
     text-shadow: 0 0 0.2rem #ff0000;
 }
